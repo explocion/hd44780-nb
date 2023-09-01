@@ -1,0 +1,12 @@
+[package]
+name = "hd44780-nb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitvec = { version = "1.0.1", default-features = false }
+embedded-hal = { version = "0.2.7", features = ["unproven"] }
+nb = "1.1.0"
+ufmt = "0.2.0"
